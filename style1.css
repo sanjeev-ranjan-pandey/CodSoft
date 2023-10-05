@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: #66cdaa;
+    min-height: 100vh;
+    border: solid black 10px;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    color: blueviolet;
+}
+.top{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-transform: uppercase;
+  
+}
+.top h4{
+    font-size: 20px;
+    text-align: end;
+    color: antiquewhite;
+}
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bio{
+    margin-top:20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.bio p{
+    font-size: 20px;
+    margin-top:20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color: black;
+}
+
+.table{
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.tabledata{
+    background-color: #4b38dc;
+    color: azure;
+}
+.honours h2{
+    font-size: 40px;
+    margin-top: 20px;
+}.honours h3{
+    margin-left:50px;
+    margin-top: 20px;
+}
+.honours ul{
+    margin-left:100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+.honours li{
+    color: red;
+}
+.honours b{
+    color: black;
+}
+.navigation{
+    margin:20px auto;
+    display: flex;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: end;
+    color: red;
+    font-size: 30px;
+}
